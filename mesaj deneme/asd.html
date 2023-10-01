@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script src="js.js"></script>
+    <div class="box">
+        <img src="a1.jpg" class="pp" id="pp2">
+        <hr class="upper">
+        
+        <input type="text" class="asd" id="asd1" placeholder="Mesaj giriniz">
+        <div id="mesajk" class="mesajku"></div>
+        <div>
+            <button class="btn" onclick="myFunction()">Tıklayınız</button>
+            <hr>
+            <div class="mesajku" id="myP"></div>
+</body>
+</html>
+<style>
+.box{
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin-left: 300px;
+  overflow: hidden;
+  color: rgb(95, 24, 24);
+  border: 2px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(203, 226, 97);
+}
+.box a
+{
+    border: 11px solid;
+    position: relative;
+}
+.upper
+{
+    margin-top: 0px;
+    height: 100px;
+    background-color: azure;
+}
+.pp
+{
+    position: absolute;
+    width: 70px;
+    margin-top: -70px;
+    border-radius: 510px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.asd{
+    margin-top: -75px;
+    margin-left: 180px;
+    width:450px;
+    height: 40px;
+}
+.btn
+{
+    margin-top: -75px;
+    margin-left: 660px;
+    width: 70px;
+    height: 40px;
+}
+.mesajku
+{
+  width: 761px;
+  height:auto;
+  margin-left: 15px;
+  background-color: white;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+body
+{
+    background-color: #9561c7;
+}
+#tarih
+{
+    color: gray; font-size: 10px;
+}
+.gidenMesaj{border-bottom: 1px gray solid;margin-top: 10px;margin-bottom: 10px;}
+.gidenMesaj>img{width: 20px; height: 20px; margin: 5px 5px 0px 5px;}
+</style>
